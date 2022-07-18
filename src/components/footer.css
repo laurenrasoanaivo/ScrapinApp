@@ -1,0 +1,11 @@
+footer{
+    background-color: #3b4d61;
+    padding: 2%;
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 1%;
+	width: 60px;
+    border: 2px solid #6b7b8c;
+}

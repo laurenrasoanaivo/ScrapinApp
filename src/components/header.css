@@ -1,0 +1,11 @@
+.head{
+   background-color: #3b4d61;
+   color: white;
+}
+.title{
+    text-align: center;
+    padding: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: large;
+}

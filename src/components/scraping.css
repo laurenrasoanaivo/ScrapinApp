@@ -1,0 +1,30 @@
+
+.container{
+	overflow: auto;
+}
+.container > ul{
+	list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container > ul> li{
+	background-color: #6b7b8c33;
+	color: black;
+	padding: 6px;
+	margin: 4px;
+	border-radius: 15px;
+}
+.container > ul> li> h2{
+	font-size: larger;
+	border-bottom: 2px solid #6b7b8c;
+	color: #3b4d61;
+}
+.container > ul> li> h3{
+	font-size: medium;
+	color: #ef9d1f;
+}
+.container > ul> li> p{
+	font-size: 13px;
+}
