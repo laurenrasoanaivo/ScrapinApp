@@ -1,14 +1,12 @@
 
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import './scraping.css';
+import './jobList.css';
 
-function Scraping({job}){
+function JobList({job}:{job:any}){
 
     return(
         <div className='container' >
             <ul>
-                {job!=null && job.information.map((item) =>
+                {job!=null && job.information.map((item:any) =>
                     <li key={item.href}>
                         <h2>{item.title}</h2>
                         <h3>{item.company}</h3>
@@ -22,4 +20,4 @@ function Scraping({job}){
 }
 
 
-export default Scraping;
+export default JobList;

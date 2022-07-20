@@ -6,7 +6,7 @@ import { IonReactRouter } from '@ionic/react-router';
 /* Import components */
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Scraping from './components/Scraping';
+import JobList from './components/JobList';
 import './app.css';
 
 
@@ -49,7 +49,7 @@ const App: React.FC = () => {
     <IonApp>
       <IonReactRouter>
         <Header />
-        <Scraping job={getJob} />
+        <JobList job={getJob} />
         <Footer onChange={(e) => setInputPage(Number(e.target.value))}/>
       </IonReactRouter>
     </IonApp>
